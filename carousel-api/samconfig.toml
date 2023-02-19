@@ -1,0 +1,11 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "carousel-app"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-sy75dvq2ntuw"
+s3_prefix = "carousel-app"
+region = "ap-south-1"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
+image_repositories = []
